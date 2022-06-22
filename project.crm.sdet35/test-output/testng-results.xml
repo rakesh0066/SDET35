@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-16T10:45:51Z" name="Suite" finished-at="2022-06-16T10:47:13Z" duration-ms="81248">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrginizationWithIndustryAndVerifyTest.CreateOrginizationWithIndustry()[pri:0, instance:com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest@457c9034]" name="CreateOrginizationWithIndustry" class="com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrginizationAndVerifyTest.createorgandverifyTest()[pri:0, instance:com.crm.Organisation.CreateOrginizationAndVerifyTest@7922d892]" name="createorgandverifyTest" class="com.crm.Organisation.CreateOrginizationAndVerifyTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-06-16T10:45:51Z" name="Test" finished-at="2022-06-16T10:47:13Z" duration-ms="81248">
+      <class name="com.crm.Organisation.CreateOrginizationAndVerifyTest">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.Organisation.CreateOrginizationAndVerifyTest@7922d892]" started-at="2022-06-16T10:46:19Z" name="launchTheBrowser" finished-at="2022-06-16T10:46:22Z" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.Organisation.CreateOrginizationAndVerifyTest@7922d892]" started-at="2022-06-16T10:46:22Z" name="loginToAppln" finished-at="2022-06-16T10:46:26Z" duration-ms="4148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="createorgandverifyTest()[pri:0, instance:com.crm.Organisation.CreateOrginizationAndVerifyTest@7922d892]" started-at="2022-06-16T10:46:26Z" name="createorgandverifyTest" finished-at="2022-06-16T10:46:43Z" duration-ms="17560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorgandverifyTest -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.crm.Organisation.CreateOrginizationAndVerifyTest@7922d892]" started-at="2022-06-16T10:46:43Z" name="logoutFromAppln" finished-at="2022-06-16T10:46:46Z" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.Organisation.CreateOrginizationAndVerifyTest@7922d892]" started-at="2022-06-16T10:46:46Z" name="closeBrowser" finished-at="2022-06-16T10:46:46Z" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.Organisation.CreateOrginizationAndVerifyTest -->
+      <class name="com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest@457c9034]" started-at="2022-06-16T10:46:46Z" name="launchTheBrowser" finished-at="2022-06-16T10:46:48Z" duration-ms="2418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest@457c9034]" started-at="2022-06-16T10:46:48Z" name="loginToAppln" finished-at="2022-06-16T10:46:52Z" duration-ms="4002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="CreateOrginizationWithIndustry()[pri:0, instance:com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest@457c9034]" started-at="2022-06-16T10:46:52Z" name="CreateOrginizationWithIndustry" finished-at="2022-06-16T10:47:10Z" duration-ms="17615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrginizationWithIndustry -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest@457c9034]" started-at="2022-06-16T10:47:10Z" name="logoutFromAppln" finished-at="2022-06-16T10:47:12Z" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest@457c9034]" started-at="2022-06-16T10:47:12Z" name="closeBrowser" finished-at="2022-06-16T10:47:13Z" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.Organisation.CreateOrginizationWithIndustryAndVerifyTest -->
+      <class name="com.crm.contacts1.CreateContactsAndVerifyTest">
+        <test-method is-config="true" signature="dbconnect()[pri:0, instance:com.crm.contacts1.CreateContactsAndVerifyTest@69f1a286]" started-at="2022-06-16T10:45:51Z" name="dbconnect" finished-at="2022-06-16T10:45:51Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnect -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:com.crm.contacts1.CreateContactsAndVerifyTest@69f1a286]" started-at="2022-06-16T10:45:51Z" name="launchTheBrowser" finished-at="2022-06-16T10:45:55Z" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.contacts1.CreateContactsAndVerifyTest@69f1a286]" started-at="2022-06-16T10:45:55Z" name="loginToAppln" finished-at="2022-06-16T10:45:59Z" duration-ms="4264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="createcontactverifyTest()[pri:0, instance:com.crm.contacts1.CreateContactsAndVerifyTest@69f1a286]" started-at="2022-06-16T10:45:59Z" name="createcontactverifyTest" finished-at="2022-06-16T10:46:17Z" duration-ms="17183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontactverifyTest -->
+        <test-method is-config="true" signature="logoutFromAppln()[pri:0, instance:com.crm.contacts1.CreateContactsAndVerifyTest@69f1a286]" started-at="2022-06-16T10:46:17Z" name="logoutFromAppln" finished-at="2022-06-16T10:46:19Z" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAppln -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.contacts1.CreateContactsAndVerifyTest@69f1a286]" started-at="2022-06-16T10:46:19Z" name="closeBrowser" finished-at="2022-06-16T10:46:19Z" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDBconfig()[pri:0, instance:com.crm.contacts1.CreateContactsAndVerifyTest@69f1a286]" started-at="2022-06-16T10:47:13Z" name="closeDBconfig" finished-at="2022-06-16T10:47:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconfig -->
+      </class> <!-- com.crm.contacts1.CreateContactsAndVerifyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
