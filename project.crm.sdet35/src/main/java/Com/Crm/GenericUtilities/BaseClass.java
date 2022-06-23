@@ -39,22 +39,22 @@ public class BaseClass {
 //    	String BROWSER = fLib.getPropertyKeyValue("browser");
 //    	String URL = fLib.getPropertyKeyValue("url");
     	
-    	 String BROWSER = getPropertyKeyValue("browser");
-    	 String URL = getPropertyKeyValue("url");
-    	 
+    	 String BROWSER = System.getProperty("browser");
+    	 String URL = System.getProperty("url");
     	
-//    	
-//    	if(BROWSER.equalsIgnoreCase("chrome"))
-//    	{
-//    		WebDriverManager.chromedriver().setup();
-//    		driver=new ChromeDriver();
-//    	}else if(BROWSER.equalsIgnoreCase("firefox")) {
-//    		WebDriverManager.firefoxdriver().setup();
-//    		driver=new FirefoxDriver();
-//    	}else {
-//    		driver=new ChromeDriver();
-//    	}
-//    	
+    	
+    	if(BROWSER.equalsIgnoreCase("chrome"))
+    	{
+    		WebDriverManager.chromedriver().setup();
+    		driver=new ChromeDriver();
+    	}else if(BROWSER.equalsIgnoreCase("firefox")) {
+    		WebDriverManager.firefoxdriver().setup();
+    		driver=new FirefoxDriver();
+    	}else {
+    		driver=new ChromeDriver();
+    	}
+    	
+    	
     	//Implicitly wait
     	wLib.waitForPageToLoad(driver);
     	sdriver=driver;
