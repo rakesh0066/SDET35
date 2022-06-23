@@ -35,20 +35,26 @@ public class BaseClass {
 	//@Parameters("BROWSER")
     @BeforeClass(groups = {"smokeTest", "regressionTest"})
     public void launchTheBrowser() throws Throwable {
-    	String BROWSER = fLib.getPropertyKeyValue("browser");
-    	String URL = fLib.getPropertyKeyValue("url");
     	
-    	if(BROWSER.equalsIgnoreCase("chrome"))
-    	{
-    		WebDriverManager.chromedriver().setup();
-    		driver=new ChromeDriver();
-    	}else if(BROWSER.equalsIgnoreCase("firefox")) {
-    		WebDriverManager.firefoxdriver().setup();
-    		driver=new FirefoxDriver();
-    	}else {
-    		driver=new ChromeDriver();
-    	}
+//    	String BROWSER = fLib.getPropertyKeyValue("browser");
+//    	String URL = fLib.getPropertyKeyValue("url");
     	
+    	 String BROWSER = getPropertyKeyValue("browser");
+    	 String URL = getPropertyKeyValue("url");
+    	 
+    	
+//    	
+//    	if(BROWSER.equalsIgnoreCase("chrome"))
+//    	{
+//    		WebDriverManager.chromedriver().setup();
+//    		driver=new ChromeDriver();
+//    	}else if(BROWSER.equalsIgnoreCase("firefox")) {
+//    		WebDriverManager.firefoxdriver().setup();
+//    		driver=new FirefoxDriver();
+//    	}else {
+//    		driver=new ChromeDriver();
+//    	}
+//    	
     	//Implicitly wait
     	wLib.waitForPageToLoad(driver);
     	sdriver=driver;
@@ -57,7 +63,11 @@ public class BaseClass {
     	//Maximize screen
     	driver.manage().window().maximize();
     }
-    /**
+    private String getPropertyKeyValue(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	/**
      * login to application
      * @throws Throwable 
      */
