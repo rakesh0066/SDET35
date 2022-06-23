@@ -39,6 +39,8 @@ public class BaseClass {
 //    	String BROWSER = fLib.getPropertyKeyValue("browser");
 //    	String URL = fLib.getPropertyKeyValue("url");
     	
+    	//parameter jenkins
+    	
     	 String BROWSER = System.getProperty("browser");
     	 String URL = System.getProperty("url");
     	
