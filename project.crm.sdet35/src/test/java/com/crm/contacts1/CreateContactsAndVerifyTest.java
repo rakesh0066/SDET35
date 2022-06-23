@@ -61,7 +61,7 @@ public class CreateContactsAndVerifyTest extends BaseClass {
 //		driver.findElement(By.name("user_password")).sendKeys(fLib.getPropertyKeyValue("password"));
 //		driver.findElement(By.id("submitButton")).submit();
 		
-		//login
+		//login to page
 		
 //		LoginPage log = new LoginPage(driver);
 //		log.LoginToApplication(USERNAME, PASSWORD);
