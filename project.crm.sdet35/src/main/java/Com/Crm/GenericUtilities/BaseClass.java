@@ -33,16 +33,16 @@ public class BaseClass {
 		dLib.connectToDB();
 	}
 	//@Parameters("BROWSER")
-    @BeforeClass(groups = {"smokeTest", "regressionTest"})
+	@BeforeClass(groups = {"smokeTest", "regressionTest"})
     public void launchTheBrowser() throws Throwable {
     	
-//    	String BROWSER = fLib.getPropertyKeyValue("browser");
-//    	String URL = fLib.getPropertyKeyValue("url");
+    	String BROWSER = fLib.getPropertyKeyValue("browser");
+    	String URL = fLib.getPropertyKeyValue("url");
     	
     	//parameter jenkins
     	
-    	 String BROWSER = System.getProperty("browser");
-    	 String URL = System.getProperty("url");
+ //   	 String BROWSER = System.getProperty("browser");
+ //   	 String URL = System.getProperty("url");
     	
     	
     	if(BROWSER.equalsIgnoreCase("chrome"))
